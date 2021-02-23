@@ -1,6 +1,6 @@
 # Arduino example 2 
 Tutorial 2 - LED with Button \
-버튼을 누르면 LED가 켜지고 버튼을 누르지 않을 때는 LED가 꺼지는 동작하도록 제작
+버튼을 누르면 LED가 켜지고 버튼을 누르지 않을 때는 LED가 꺼지게 동작하도록 제작
 
 
 ## circuit
