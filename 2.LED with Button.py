@@ -5,7 +5,7 @@ import time
 board = Arduino('COM8')
 
 digital_input = board.get_pin('d:2:i') # 2번 핀 입력으로 설정
-led = board.get_pin('d:13:o') #8번 핀 출력으로 설정
+led = board.get_pin('d:13:o') #13번 핀 출력으로 설정
 
 it = util.Iterator(board) #회로의 입력상태를 읽어올 변수선언
 it.start()
