@@ -15,8 +15,11 @@ pyfirmata의 아두이노 모듈을 사용하기 위해 import함
 ``` board = Arduino('COM8')``` \
 변수1 = Arduino('**포트번호**') 를 해서 보드와 연결 
 
+
 ``` digital_input = board.get_pin('d:2:i')``` \
   -> 2번핀을 digital신호 입력핀으로 설정\
+  ```led = board.get_pin('d:13:o') ```\
+  -> 13번 핀을 digital신호 출력핀으로 설정\
 변수1 = 변수2.get_pin('**d or a** : **pin number** : **i or o** ') \
 **d or a** : The type of the pin \
 **pin number** : The number of the pin\
