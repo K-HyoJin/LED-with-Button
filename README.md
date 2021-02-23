@@ -35,7 +35,7 @@ iterator 시작
 button과 연결된 2번핀의 입력을 읽어와서 변수 switch에 저장
 
 ```led.write(1)```\
-led가 연결된 13번 핀에 1을 주어 led를 켜도록 함
+led가 연결된 13번 핀에 1을 입력시켜서 led를 켜도록 함
 
 ```  time.sleep(0.1) ```\
 0.1초동안 기다림
