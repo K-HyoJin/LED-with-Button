@@ -12,6 +12,9 @@ LED : digital 13pin \
 ``` from pyfirmata import Arduino,util ```\
 pyfirmata의 아두이노 모듈을 사용하기 위해 import함 
 
+``` import time ```\
+프로그램을 일정시간동안 지연시키기위해 time 모듈을 import함
+
 ``` board = Arduino('COM8')``` \
 변수1 = Arduino('**포트번호**') 를 해서 보드와 연결 
 
